@@ -19,5 +19,6 @@ initialization & running
 - cd parent directory
 - create and activate the venv
 - pip3 install requirements.txt
+- set your SECRET_KEY in settings
 - pip3 manage.py makemigrations
 - pip3 manage.py migrate
