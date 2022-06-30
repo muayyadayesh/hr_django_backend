@@ -1,16 +1,19 @@
-HR system:
+# HR system:
 
-initialization & running:
+initialization & running 
 
-# Postgresql DB:
+## Postgresql DB:
 
 - install postgres
 - setup database, user and auth as below:
+```
   'NAME': 'hrdb',
   'USER': 'postgres',
   'PASSWORD': '1234',
+```
 
-# Django back-end app:
+
+## Django back-end app:
 
 - clone repo
 - cd parent directory
@@ -18,10 +21,3 @@ initialization & running:
 - pip3 install requirements.txt
 - pip3 manage.py makemigrations
 - pip3 manage.py migrate
-
-# ReactJS front-end app:
-
-- clone repo
-- select parent directory
-- npm install
-- npm start
